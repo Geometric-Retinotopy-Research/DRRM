@@ -17,7 +17,7 @@ This project is the core program of Diffeomorphic Registration for Retinotopic M
 |- data/       // some data which project need to plot figures
 |- Figure/     // figures will save in this floder after plot results
 |- README.md   // the document introduce the whole project (current file)
-|- LICENSE.txt //LICENSE file
+|- LICENSE.txt // LICENSE file
 ``` 
 
 ***details of each folders:***
