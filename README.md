@@ -13,11 +13,11 @@ This project is the core program of Diffeomorphic Registration for Retinotopic M
 ### The construction of project:
 
 ```c
-|- code/     				// including code and anything files support the project could run
-|- data/						// some data which project need to plot figures
-|- Figure/					// figures will save in this floder after plot results
-|- README.md				// the document introduce the whole project (current file)
-|- LICENSE.txt				//LICENSE file
+|- code/       // including code and anything files support the project could run
+|- data/       // some data which project need to plot figures
+|- Figure/     // figures will save in this floder after plot results
+|- README.md	 // the document introduce the whole project (current file)
+|- LICENSE.txt //LICENSE file
 ``` 
 
 ***details of each folders:***
