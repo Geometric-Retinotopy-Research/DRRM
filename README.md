@@ -17,6 +17,7 @@ This project is a validation program of Diffeomorphic Registration for Retinotop
 |- data/						// some data which project need to plot figures
 |- Figure/					// figures will save in this floder after plot results
 |- README.md				// the document introduce the whole project (current file)
+|- LICENSE.txt				//LICENSE file
 ```
 
 ***details of each folders:***
