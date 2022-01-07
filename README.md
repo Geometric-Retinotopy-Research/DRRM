@@ -18,7 +18,7 @@ This project is the core program of Diffeomorphic Registration for Retinotopic M
 |- Figure/     // figures will save in this floder after plot results
 |- README.md   // the document introduce the whole project (current file)
 |- LICENSE.txt // LICENSE file
-``` 
+```
 
 ***details of each folders:***
 
@@ -49,9 +49,9 @@ This project is the core program of Diffeomorphic Registration for Retinotopic M
   * <span style="color: orange">**- HCP32Kmat/:** </span> HCP32K data.
 
   * <span style="color: orange">**- Studyforrest/:** </span> study forrest data.
- 
+
   
-  ---  
+  ---
 
 
 # How to use our code for your own work?
@@ -97,9 +97,6 @@ We assume the feature is same as the number of vertices. Nxf: N is the number of
   
   ```
 After the execuation of disk_registration. The output is a map of moved points. bc is the associated with the map.
-
-
-* [**function [map,map_mu] = registration(moving, static, landmark, target, maxiter, maxfixstep)**](https://github.com/colinxiny/BrainStructuralAndFunctional/tree/feature/code_reconstrution/tutorial/disk_registrationfunction)
 
 ## Step 3: Prepration & Evaulation performance, 
 
