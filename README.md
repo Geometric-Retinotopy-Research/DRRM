@@ -2,7 +2,7 @@
 
 
 
-This project is a validation program of Diffeomorphic Registration for Retinotopic Maps of Multiple Visual Regions. 
+This project is the core program of Diffeomorphic Registration for Retinotopic Maps of Multiple Visual Regions. 
 
  * [**Data**](https://osf.io/s25pe/) is availale here. 
 
