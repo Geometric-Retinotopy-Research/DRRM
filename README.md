@@ -363,4 +363,4 @@ Maybe you can submit a issue in github or contact us.
 
   ## License
 
-  Released under the [ASU GitHub Project License](https://github.com/colinxiny/BrainStructuralAndFunctional/blob/feature/v1.0/LICENSE.txt).
+  Released under the [ASU GitHub Project License](https://github.com/Retinotopy-mapping-Research/DRRM/blob/master/LICENSE.txt).
