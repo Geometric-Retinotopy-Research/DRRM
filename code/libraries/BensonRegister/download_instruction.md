@@ -1,0 +1,1 @@
+Please download "nben-standalone.jar" from repositry "https://github.com/noahbenson/neuropythy"

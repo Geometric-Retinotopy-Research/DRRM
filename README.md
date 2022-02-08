@@ -108,6 +108,10 @@ Then you the mesh on the disk.
 Evaulation the regsitration results, can be tricky. This requires more knowledge of pRF decoding. 
 We recommand the readers to read `compute_fMRI_metrics.m`.
 
+## Play our sample code. 
+1. Downlaod  100610_32k_pRF_fMRI.mat from OSF website. 
+2. Run demo_DRRM, which reproduce figure6 in the paper. 
+
 ## What to do if I still cannot process my data?
 Maybe you can submit a issue in github or contact us. 
 
