@@ -59,9 +59,9 @@ The retinotopic code consist of geometry processing, fMRI fitting, mathematics c
 ## Step 0: Download necessary libraries and data
 Limited by the copyright, we have not included all the libraries. Data files are also excluded due to file size. To test, please download the following files:
 1. Download one of HCP subject to data/HCP32Kmat/ from https://osf.io/qwzv3/  
- e.g. You will have data/HCP32Kmat/100610_32k_pRF_fMRI.mat
+ e.g., You will have data/HCP32Kmat/100610_32k_pRF_fMRI.mat.
 2. Download the modified HCP template to code/resources/templates from https://osf.io/qwzv3/  
-3. Download nben-standalone.jar from github https://github.com/noahbenson/neuropythy and put into code\libraries\BensonRegister  
+3. Download nben-standalone.jar from github https://github.com/noahbenson/neuropythy and put into code/libraries/BensonRegister  
 
 ## Step 1: Get familar with the geometry processing package. 
 You can read the tutorials in the geometry processing package. The fundamental data structure is the mesh, which is consisted of a list a vertices and a list of faces. 
