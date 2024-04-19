@@ -62,7 +62,7 @@ function [NRMSE_raw, NRMSE_new, ...
         % we need vary power n
         nopt = 0.05;  
 
-        parameters = [pRF0(vx,1:2)  pRF0(vx,6)*sqrt(nopt) pRF0(vx,3) sqrt(nopt)];
+        parameters = [pRF0(vx,1:2)  pRF0(vx,6)*sqrt(nopt) pRF0(vx,3) nopt];
         [p,r,e, pc]=R2bypara(parameters,fMRI,polymatrix, degs, vx,modelfun, stimulusPP);
         R2array(vx) =p;
         rmsearray(vx)=r;
@@ -81,7 +81,7 @@ function [NRMSE_raw, NRMSE_new, ...
 
         % we need vary power n
         nopt = 0.05;     
-        parameters = [pRF(vx,1:2)  pRF(vx,6)*sqrt(nopt) pRF(vx,3) sqrt(nopt)];
+        parameters = [pRF(vx,1:2)  pRF(vx,6)*sqrt(nopt) pRF(vx,3) nopt];
         [p, r, e, pc]=R2bypara(parameters, fMRI,polymatrix, degs, vx,modelfun, stimulusPP);
         R2arraynew(vx) =p;
         rmsearraynew(vx)=r;

@@ -63,13 +63,13 @@ function [NRMSE_raw, NRMSE_new, ...
         R2n = [];
         for i=1:length(ns)
             n = ns(i);
-            parameters =  [pRF0(vx,1:2)  pRF0(vx,6)*sqrt(n) pRF0(vx,3) sqrt(n)];
+            parameters =  [pRF0(vx,1:2)  pRF0(vx,6)*sqrt(n) pRF0(vx,3) n];
             R2n(i) = R2bypara(parameters,fMRI, polymatrix, degs, vx,modelfun, stimulusPP) ;
         end
         [~, mid]=max(R2n);
         nopt = ns(mid);
 
-        parameters = [pRF0(vx,1:2)  pRF0(vx,6)*sqrt(nopt) pRF0(vx,3) sqrt(nopt)];
+        parameters = [pRF0(vx,1:2)  pRF0(vx,6)*sqrt(nopt) pRF0(vx,3) nopt];
         [p,r,e]=R2bypara(parameters,fMRI,polymatrix, degs, vx,modelfun, stimulusPP);
         R2array(vx) =p;
         rmsearray(vx)=r;
@@ -90,14 +90,14 @@ function [NRMSE_raw, NRMSE_new, ...
         R2n = [];
         for i=1:length(ns)
             n = ns(i);
-            parameters =  [pRF(vx,1:2)  pRF(vx,6)*sqrt(n) pRF(vx,3) sqrt(n)];
+            parameters =  [pRF(vx,1:2)  pRF(vx,6)*sqrt(n) pRF(vx,3) n];
             R2n(i) = R2bypara(parameters, fMRI,polymatrix, degs, vx,modelfun, stimulusPP) ;
         end
         [~, mid]=max(R2n);
         nopt = ns(mid);
         optns(vx) = nopt;
 
-        parameters = [pRF(vx,1:2)  pRF(vx,6)*sqrt(nopt) pRF(vx,3) sqrt(nopt)];
+        parameters = [pRF(vx,1:2)  pRF(vx,6)*sqrt(nopt) pRF(vx,3) nopt];
         [p, r, e]=R2bypara(parameters, fMRI,polymatrix, degs, vx,modelfun, stimulusPP);
         R2arraynew(vx) =p;
         rmsearraynew(vx)=r;
